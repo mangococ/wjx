@@ -1,0 +1,214 @@
+body {
+    background: url(../images/bacg.jpg) no-repeat;
+    /*display: flex;*/
+    min-height: 100vh;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+     display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    position: relative;
+    top: 2em; 
+    left: 2em; 
+}
+
+.pull-right {
+    position: absolute;
+    top: 2em;
+    right: 4em;
+}
+
+.button {
+    font-size: 1.1em;
+    color: #ded8d8;
+    border: 1.4px solid #ded8d8;
+    border-radius: 2em;
+    display:inline-block;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+#register {
+    width: 3.3em;
+    height: 1.5em;
+    padding-top: 0.4em;
+    padding-left: 1.3em;
+    padding-bottom: 0.4em;
+    margin-right: 1em;
+}
+
+#back-index {
+    width: 5em;
+    height: 1.5em;
+    padding-top: 0.4em;
+    padding-left: 1.2em;
+    padding-bottom: 0.4em;
+}
+
+main {
+    margin: 1em auto;
+    text-align: center;
+    background: #fff;
+    border-radius: 1em;
+    width: 30em; 
+}
+
+main h1 {
+    font-size: 1.5em;
+    color: #fa911e;
+     position: relative;
+    top: 1em;
+    left: -6em; 
+}
+
+main .input-style {
+    color: #c1c1c1;
+    border:1px solid #c1c1c1;
+    border-radius: 2em;
+    width: 23em;
+    height: 3em;
+    margin-top: 1.5em;
+    padding-left: 3em;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #999;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #999;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #999;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #999;
+}
+
+main .input-style:focus {
+    border:1px solid #fa911e;
+    outline: 0;
+}
+
+#userName {
+    margin-top: 3.5em;
+}
+
+#normal div {
+    color: #6b6363;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+#normal div input {
+    position: relative;
+    top: 0.2em;
+}
+#normal div span {
+    margin-right: 10em;
+}
+#normal div a {
+    position: relative;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#normal div a:hover {
+    color: #fa9111;
+}
+
+
+
+main input[type=submit] {
+    background: #fa911e;
+    border: #fa911e;
+    width: 19.7em;
+    height: 3em;
+    font-size: 1.1em;
+    letter-spacing: 0.4em;
+    color: #fff;
+    padding: 0;
+    opacity:0.8;
+    cursor: pointer;
+}
+main input[type=submit]:hover {
+    opacity: 1;
+}
+#normal > a {
+    font-size: 1.2em;
+    color: #ef5e10;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: inline-block;
+    cursor: pointer;
+    opacity:0.6;
+}
+#normal > a:hover {
+    opacity: 1;
+}
+#other {
+    position: relative;
+}
+#other span::before {
+    content: '';
+    position: absolute;
+    top: 0.8em;
+    left: 4.7em;
+    width: 9.1em;
+    height: 2px;
+    background: #c5bcbc;
+}
+
+#other span::after {
+    content: '';
+    position: absolute;
+    top: 0.8em;
+    right: 4.7em;
+    width: 9.1em;
+    height: 2px;
+    background: #c5bcbc;
+}
+
+#other span {
+    color: #999;
+    font-size: 0.91em;
+    height: 8em;
+    display: block;
+}
+
+.penguin-icon {
+    position: absolute;
+    background: url(../images/qq.png) no-repeat center;
+    width: 56px;
+    height: 56px;
+    top: 2.5em;
+    left: 13.5em;
+}
+
+.penguin-icon:hover {
+    background: url(../images/qq-hover.png) no-repeat center;
+}
+
+footer {
+    position: absolute;
+    right: 2em;
+    bottom: 0.5em;
+}
+
+footer span {
+    color: #ececec;
+    display: block;
+    font-size: 1.1em;
+}
+
+footer span:last-child {
+    margin-top: 0.3em;
+}
