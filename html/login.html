@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>问卷星登录</title>
+		<link href="../css/login.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<a href="index.html"><img src="../images/logo.png" alt="问卷星_不止问卷调查/在线考试" /></a>
+			</div>
+			<div class="pull-right">				
+				<a href="register.html" id="register" class="button">注册</a>
+				<a href="index.html" id="back-index" class="button">返回首页</a>
+			</div>
+		</header>
+		<main>
+			<form method="get" action="useraction.action" id="login">
+				<h1>问卷星登录</h1>
+				<div id="normal">
+					<label for="userName"></label>
+					<input type="text" id="userName" placeholder="用户名/Email/手机" class="input-style" /><br />
+					<label for="password"></label>
+					<input type="password" id="password" placeholder="请输入登录密码" class="input-style" /><br />
+					<!-- <input type="text" />  验证码 -->	
+					<div>
+						<input type="checkbox" /><span>下次自动登录</span>
+						<a>忘记用户名/密码？</a><br />
+					</div>					
+					<input type="submit" value="登录" class="input-style" /><br />
+					<span class="tips"></span>
+					<a>立即注册</a>
+				</div>
+				<div id="other">
+					<span>第三方登录</span>
+					<a class="penguin-icon"></a>
+				</div>
+			</form>
+		</main>
+		<footer>
+			<span>《登顶武功山》</span>
+			<span>拍摄于问卷星团队二月徒步之旅</span>
+		</footer>
+	</body>
+</html>
